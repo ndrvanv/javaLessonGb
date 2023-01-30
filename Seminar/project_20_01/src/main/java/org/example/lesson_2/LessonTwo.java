@@ -1,4 +1,4 @@
-package lesson_2;
+package org.example.lesson_2;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -7,16 +7,10 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Sem2 {
+public class LessonTwo {
 
-    public static void main(String [] args) {
-//    task1();
-//    task2();  //Полурабочий вариант
-//    task21();  //Рабочий вариант
-        task3();
 
-}
-    static void task1() {
+    public static void taskOne() {
         Scanner scan = new Scanner(System.in);
         System.out.print("Введите первой символ ");
         String str1 = scan.next(); //next - считывание до пробела
@@ -37,7 +31,7 @@ public class Sem2 {
 
     }
 
-    static void task2() { // Полурабочий вариант
+    public static void taskTwoNotWork() { // Полурабочий вариант
 //    1. Напишите метод, который принимает на вход строку (String) и определяет
 //    является ли строка палиндромом (возвращает boolean значение).
         Scanner scan = new Scanner(System.in);
@@ -67,7 +61,7 @@ public class Sem2 {
         }
     }
 
-    static void task21() { // Рабочий вариант
+    public static void taskTwo() { // Рабочий вариант
         //    1. Напишите метод, который принимает на вход строку (String) и определяет
 //    является ли строка палиндромом (возвращает boolean значение).
         Scanner scan = new Scanner(System.in);
@@ -86,7 +80,7 @@ public class Sem2 {
         return true;
     }
 
-    static void task3() {
+    public static void taskThree() {
 //        2. Напишите метод, который составит строку, состоящую из 100 повторений слова TEST
 //        и метод, который запишет эту строку в простой текстовый файл, обработайте исключения.
         String str = "TEST ";
