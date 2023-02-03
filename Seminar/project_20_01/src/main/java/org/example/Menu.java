@@ -3,6 +3,7 @@ package org.example;
 import org.example.lesson_1.MenuLessonOne;
 import org.example.lesson_2.MenuLessonTwo;
 import org.example.lesson_3.MenuLessonThree;
+import org.example.lesson_4.MenuLessonFour;
 
 import java.util.Scanner;
 
@@ -30,6 +31,9 @@ public class Menu {
                     break;
                 case 3:
                     MenuLessonThree.menuLessonThree();
+                    break;
+                case 4:
+                    MenuLessonFour.menuLessonFour();
                     break;
             }
         }
